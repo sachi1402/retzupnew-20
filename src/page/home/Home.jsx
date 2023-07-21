@@ -7,7 +7,7 @@
     return (
         <div className="Home__cont">
             {/* <ScalitonCard/> */}
-            <div className="Home__nav" style={{height:'100px'}}></div>
+        <div className="Home__nav" style={{height:'100px'}}></div>
         <div className="Home__cards_cont">
             {propertyListingData.map((data) => {
             return (

@@ -1,0 +1,73 @@
+.Card__cont{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    border-bottom: none;
+    min-width: 300px;
+    border: 1px solid black;
+    padding:10px 20px;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Card__title-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    h5{
+        font-size:1em;
+    }
+    p{
+        display: inline-flex;
+        font-size: 0.9em;
+    }
+}
+.Card__check-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding:10px 12px;
+    div{
+        display: flex;
+        flex-direction: column;
+        p{
+
+            font-family: "Helvetica Neue",Helvetica,Arial;
+            font-size:1em;
+
+        }
+        h2{
+            font-size:1.2em;
+            font-weight:700;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}
+
+.Card__GUest{
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size:1.2em;
+        font-weight:700;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+        font-family: "Helvetica Neue",Helvetica,Arial;
+        font-size:1em;
+
+    }
+}
+
+
+.Card__btn-res{
+    padding:11px 10px;
+    font-family: "Helvetica ";
+    font-size: 1.3em;
+    color: #fff !important;
+    background: linear-gradient(45deg, #FFA500, #FF6347);
+    border: none ;
+    border-radius: 5px;
+}
